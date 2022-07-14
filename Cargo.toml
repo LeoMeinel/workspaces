@@ -1,0 +1,13 @@
+# This is the workspace configuration
+# In a workspace, all packages are built when running cargo build
+# A package can be run with cargo run -p <name>, tested with cargo test -p <name>
+# cargo run or cargo test execute that on all packages
+# packages share dependencies and target directory
+# That way it is easy to maintain a project depending on various packages (compatibility, ...)
+# packages have to be published individually to crates.io
+[workspace]
+members = [
+    "adder",
+    "add-one",
+    "add-two",
+]
