@@ -6,8 +6,4 @@
 # That way it is easy to maintain a project depending on various packages (compatibility, ...)
 # packages have to be published individually to crates.io
 [workspace]
-members = [
-    "adder",
-    "add-one",
-    "add-two",
-]
+members = ["adder", "add-one", "add-two"]
